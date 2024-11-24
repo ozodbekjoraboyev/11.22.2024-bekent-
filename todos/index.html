@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+<style>
+  nav {
+    background-color: blue;
+    color: aliceblue;
+    margin: 0 auto;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .loading {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 200px auto;
+    animation: loadingAnimation 1s infinite linear;
+    border: 10px solid #ded8d8;
+    border-top: 10px solid rgb(84, 232, 26);
+
+  }
+
+  @keyframes loadingAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<body>
+  <div class="container mx-auto px-10">
+    <nav>
+      <ul>
+        <li>
+          <a href="../post/index.html">post</a>
+        </li>
+        <li> <a href="../comenst/index.html">commsnts</a></li>
+        <li>
+          <a href="../albums/index.html">albums</a>
+        </li>
+        <li> <a href="../photos/index.html">photos</a></li>
+        <li> <a href="../todos/index.html">todos</a></li>
+        <li> <a href="../user/index.html">user</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="mainn p-10"></div>
+  <div class="loading">
+    <img src="" alt="">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  <script src="./todos.js"></script>
+</body>
+
+</html>
