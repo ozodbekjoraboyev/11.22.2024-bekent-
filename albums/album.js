@@ -14,14 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
             let titele = document.createElement("h4")
              userId.textContent = `userId ${elem.userId}`
              id.textContent = `id ${elem.id}`
-             titele.textContent = `titele ${elem.titele}`
+             titele.textContent = `title ${elem.titele}`
              card.append(userId,id,titele)
              card.classList.add("card")
              contenor.append(card)
              card.style.width ="100%"
              card.style.borderRadius ="20px"
              card.style.margin ="20px"
-             card.style.border="2px solid yellow"
+             card.style.border="2px solid black"
              card.style.padding="10px"
         });
         console.log(respons);

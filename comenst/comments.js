@@ -24,8 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
              card.classList.add("card")
              contenor.append(card)
              card.style.width ="100%"
-             card.style.border="2px solid yellow"
+             card.style.border="2px solid black"
              card.style.padding="10px"
+             card.style.borderRadius = "10px";
+             card.style.marginTop = "10px"
+             card.style.paddingInline = "20px"
+
         });
         console.log(respons);
         

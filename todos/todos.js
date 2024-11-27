@@ -20,8 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.append(userId,id,title,completed)
                 card.classList.add("card")
                 contenor.append(card)
-                card.style.border = "2px solid red"
+                card.style.border = "2px solid black"
                 card.style.padding = "10px"
+                card.style.borderRadius = "10px";
+                card.style.marginTop = "10px"
+
+
 
 
             });

@@ -22,8 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 card.style.borderRadius = "10px";
                 card.style.padding = "10px";
                 card.style.margin = "20px";
-                card.style.border = "2px solid #000";
-                card.style.width = "100%";
+             
 
                 container.append(card); 
             });
